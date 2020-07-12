@@ -21,12 +21,7 @@
 * [Introduction](#introduction)
 
 ## Application Demo
-### [104職缺推播機器人 – Demo (YouTube)](https://www.youtube.com/watch?v=)
-<p align="center">
-<a href=>
-    <imjlhlkg src="resources/asdfasdf.gif" alt="demo" width="720" height="450">
-</a>
-</p>
+### [104職缺推播機器人 – Demo (YouTube)](https://www.youtube.com/watch?v=8Crx3FcR7CU)
 
 ## Introduction
 機器人的功能很簡單不再贅述，稍微說明一下程式要點，讓同為新手剛好查到這篇的朋友可以參考一下
