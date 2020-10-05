@@ -7,7 +7,7 @@
      做好玩的Telegram機器人，已部署到Heroku上，歡迎玩壞
   </div>
   <div align="center">
-     Design by <a href="https://huahcc.netlify.app/">Hsiang-Chu Chou</a>, Tech Support by <a href="https://wenyalintw.github.io/">Wen-Ya Lin</a>
+     Design: <a href="https://huahcc.netlify.app/">Hsiang-Chu Chou</a> / Tech Support: <a href="https://wenyalintw.github.io/">Wen-Ya Lin</a>
   </div>
    	<div align="center">
      點擊加入 <a href="https://t.me/job_scraper_bot">https://t.me/job_scraper_bot</a>
