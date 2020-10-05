@@ -4,7 +4,10 @@
   </a>
   <h2 align="center">104職缺推播機器人</h2>
     <div align="center">
-     幫朋友做好玩的Telegram機器人，已部署到Heroku上，歡迎玩壞（？）
+     做好玩的Telegram機器人，已部署到Heroku上，歡迎玩壞
+  </div>
+  <div align="center">
+     Design by <a href="https://huahcc.netlify.app/">Hsiang-Chu Chou</a>, Tech Support by <a href="https://wenyalintw.github.io/">Wen-Ya Lin</a>
   </div>
    	<div align="center">
      點擊加入 <a href="https://t.me/job_scraper_bot">https://t.me/job_scraper_bot</a>
@@ -50,7 +53,7 @@
 * 使用者將自身Google Drive權限開給機器人後，機器人會存下`CredentialsFile`，日後即不須再次驗證，取消授權即會刪除該檔案
 
 ### AWS S3
-* 我選擇將程式Deploy在Heroku，但Heroku是[Ephemeral File System](https://www.codementor.io/@samueljames/a-workaround-heroku-s-ephemeral-file-system-e6w341zqa)，也就是每次重啟dyno後程式生成的檔案會被清掉
+* 選擇將程式Deploy在Heroku，但Heroku是[Ephemeral File System](https://www.codementor.io/@samueljames/a-workaround-heroku-s-ephemeral-file-system-e6w341zqa)，也就是每次重啟dyno後程式生成的檔案會被清掉
 * 所以將使用者訂閱的關鍵字還有Google Drive憑證等資料存在AWS S3
 * 到S3取得憑證並建立Bucket後即可使用[boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)套件進行操作
 
@@ -62,4 +65,4 @@
 	* 解法：設定每25分鐘對Heroku app的網址發出GET請求，以迫使機器人不進入休眠
 
 
-###### MIT License (2020), Wen-Ya Lin
+###### MIT License (2020), Hsiang-Chu Chou & Wen-Ya Lin

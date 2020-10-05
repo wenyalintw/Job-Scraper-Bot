@@ -98,7 +98,7 @@ def search(update, context):
         return
 
     keyword = ' '.join(context.args)
-    bot.send_message(chat_id=chat_id, text=f'正在爬取【{keyword}】，請稍待...\n')
+    bot.send_message(chat_id=update.effective_chat.id, text=f'正在爬取【{keyword}】，請稍待...\n')
     csv_data = utils.scrap(keyword, update.effective_chat.id, s3=s3)
 
     if csv_data.__len__() == 0:
