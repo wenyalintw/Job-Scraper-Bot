@@ -16,7 +16,7 @@ html5lib==1.1
 httplib2==0.18.1
 idna==2.10
 itsdangerous==1.1.0
-Jinja2==2.11.2
+Jinja2==2.11.3
 lxml==4.5.1
 MarkupSafe==1.1.1
 oauth2client==4.1.3
