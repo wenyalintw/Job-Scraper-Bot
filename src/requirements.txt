@@ -35,7 +35,7 @@ six==1.15.0
 soupsieve==2.0.1
 tornado==6.0.4
 uritemplate==3.0.1
-urllib3==1.25.9
+urllib3==1.26.5
 webencodings==0.5.1
 Werkzeug==1.0.1
 boto3==1.14.20
